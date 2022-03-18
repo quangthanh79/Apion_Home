@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/nav_action_dashboard"
+        android:icon="@drawable/ic_baseline_home_24"
+        android:title="@string/dashboard"
+        android:enabled="true"
+        app:showAsAction="always"
+
+        />
+    <item
+        android:id="@+id/nav_action_search"
+        android:icon="@drawable/ic_search"
+        android:title="@string/search"
+        android:enabled="true"
+        app:showAsAction="always"
+
+        />
+    <item
+        android:id="@+id/nav_action_add"
+        android:title=""
+
+        />
+    <item
+        android:id="@+id/nav_action_notify"
+        android:icon="@drawable/ic_bell"
+        android:title="Thông báo"
+        android:enabled="true"
+        app:showAsAction="always"
+
+        />
+
+    <item
+        android:id="@+id/nav_action_account"
+        android:icon="@drawable/ic_baseline_person_24"
+        android:title="Tài khoản"
+        android:enabled="true"
+        app:showAsAction="always"
+
+        />
+</menu>

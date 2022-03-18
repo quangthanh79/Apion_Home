@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="5dp"
+    android:layout_marginEnd="10dp">
+
+    <ImageView
+        android:id="@+id/imgHigh"
+        android:layout_width="145dp"
+        android:layout_height="0dp"
+        android:scaleType="fitXY"
+        android:layout_marginBottom="5dp"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="145dp"
+        android:layout_height="20dp"
+        android:weightSum="3"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <TextView
+            android:id="@+id/txt_address_high"
+            android:text = "Ba Đình"
+            android:layout_width="0dp"
+            android:textSize= "13sp"
+            android:layout_height="match_parent"
+            android:gravity="center|left"
+            android:textColor="#000000"
+            android:layout_weight="2" />
+        <TextView
+            android:id="@+id/txt_price_high"
+            android:text = "7.65 tỷ"
+            android:layout_width="0dp"
+            android:textSize= "11sp"
+            android:layout_height="match_parent"
+            android:background="@drawable/background_textview"
+            android:gravity="center"
+            android:textColor="#FFFFFF"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "821539017071",
+    "project_id": "sendotp-96fe0",
+    "storage_bucket": "sendotp-96fe0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:821539017071:android:125fff6766e4abb084189a",
+        "android_client_info": {
+          "package_name": "com.apion.apionhome"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "821539017071-5o5jh95pukit0e2uj95d1csmfd8rksi6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD_L0qr6k7ONgQGTlb0IHmV0GHcgLaGTEc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "821539017071-5o5jh95pukit0e2uj95d1csmfd8rksi6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

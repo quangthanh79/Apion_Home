@@ -1,0 +1,3 @@
+rootProject.name = "Apion Home"
+include ':app'
+

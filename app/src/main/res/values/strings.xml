@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Apion Home</string>
+    <string name="register"><u>Đăng ký</u></string>
+    <string name="forgetPinCode"><u>Quên pin code</u></string>
+
+    <string name="dashboard">Trang chủ</string>
+    <string name="search">Tìm kiếm</string>
+    <string name="add"></string>
+    <string name="notify">Thông báo</string>
+    <string name="profile">Tài khoản</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_maps">MapsActivity</string>
+
+</resources>
